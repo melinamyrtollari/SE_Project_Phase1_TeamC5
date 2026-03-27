@@ -9,7 +9,7 @@
 ## Team Members:
 1. Altea Mejdani - GitHub: altea91 - Email: amejdani23@epoka.edu.al
 2. Melina Myrtollari - GitHub: melinamyrtollari - Email: mmyrtollari23@epoka.edu.al
-3. [Name] - GitHub: [Username] - Email: [Email]
+3. Esmina Karmaj - GitHub: esminaa - Email: ekarmaj23@epoka.edu.al
 4. [Name] - GitHub: [Username] - Email: [Email]
 5. [Name] - GitHub: [Username] - Email: [Email]
 
@@ -46,25 +46,29 @@ The School Event Management System is a role-based application designed for educ
 - Coordinate integration of all modules
 
 ## Team Members:
-1. Altea Mejdani - Develop database structure
+1. Altea Mejdani
+- Develop database structure
 - Build authentication and role-based access control
 - Implement event management logic
 - Handle mentorship application backend
 - Connect database to application
 
-2. Esmina Karmaj - Design and code the main user interface
+2. Esmina Karmaj
+- Design and code the main user interface
 - Build pages for student, admin, and club president roles
 - Create the timetable and event display pages
 - Develop forms for event creation and mentorship requests
 - Make the interface responsive and user-friendly
 
-3.Andi Saraci - Code simpler backend functions such as event filtering and search
+3.Andi Saraci 
+- Code simpler backend functions such as event filtering and search
 - Assist with database queries
 - Help test system features and debug errors
 - Support integration between frontend and backend
 - Add sample data handling where needed
 
-4.Alba Hasko - Code simple frontend parts such as buttons, layouts, forms, and navigation
+4.Alba Hasko 
+- Code simple frontend parts such as buttons, layouts, forms, and navigation
 - Help style pages using CSS
 - Assist in connecting forms to backend functions
 - Contribute to testing and fixing small issues
