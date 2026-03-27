@@ -8,7 +8,7 @@
 
 ## Team Members:
 1. Altea Mejdani - GitHub: altea91 - Email: amejdani23@epoka.edu.al
-2. [Name] - GitHub: [Username] - Email: [Email]
+2. Melina Myrtollari - GitHub: melinamyrtollari - Email: mmyrtollari23@epoka.edu.al
 3. [Name] - GitHub: [Username] - Email: [Email]
 4. [Name] - GitHub: [Username] - Email: [Email]
 5. [Name] - GitHub: [Username] - Email: [Email]
