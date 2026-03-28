@@ -11,7 +11,7 @@
 2. Melina Myrtollari - GitHub: melinamyrtollari - Email: mmyrtollari23@epoka.edu.al
 3. Esmina Karmaj - GitHub: esminaa - Email: ekarmaj23@epoka.edu.al
 4. Andi Saraci - GitHub: asaraci4 - Email: asaraci23@epoka.edu.al
-5. [Name] - GitHub: [Username] - Email: [Email]
+5. Alba Hasko - GitHub: ahasko4-tech - Email: ahasko23@epoka.edua.al
 
 # Project Details
 
