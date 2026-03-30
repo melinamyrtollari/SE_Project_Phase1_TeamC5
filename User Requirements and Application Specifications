@@ -1,1 +1,298 @@
+## 1. Chosen Development Model
+
+### Development Model
+Agile Model
+
+### Justification
+The Agile model was selected because it allows the team to develop the system step by step and make improvements throughout the project. Since the School Event Management System includes different roles such as admin, student, and student club president, Agile is suitable because it gives flexibility when adding or adjusting features. It also helps the team divide work efficiently, test parts of the system regularly, and solve issues early.
+
+---
+
+## 2. User Requirements
+
+### a. Stakeholders
+
+#### 1. Students
+Students are the main users of the system. They want an easy way to view school events, check timetables based on their department or clubs, and apply for mentorship opportunities.
+
+#### 2. Admin
+The admin manages the overall system. Their interest is to control users, departments, clubs, events, and ensure the platform works properly.
+
+#### 3. Student Club Presidents
+Student club presidents are responsible for organizing and managing club-related events. They need the ability to create, update, and manage events for their club members.
+
+#### 4. Student Mentors
+Student mentors offer mentorship support to other students. They need to be visible in the system so that students can apply for guidance or mentorship.
+
+#### 5. Development Team
+The development team designs, codes, tests, and maintains the system. Their goal is to build a working, secure, and user-friendly application.
+
+---
+
+### b. User Stories
+
+#### User Story 1
+As a student, I want to view event timetables based on my department so that I can easily find academic events that are relevant to me.
+
+#### User Story 2
+As a student, I want to view events related to my clubs so that I do not miss club meetings, activities, or conferences.
+
+#### User Story 3
+As a student, I want to apply for mentorship from a student mentor so that I can receive academic or personal guidance.
+
+#### User Story 4
+As an admin, I want to manage all users and events so that the system stays organized and updated.
+
+#### User Story 5
+As a student club president, I want to create and manage club events so that club members can see accurate and updated event information.
+
+#### User Story 6
+As an admin, I want to assign departments and clubs properly so that event visibility is correctly organized.
+
+#### User Story 7
+As a student mentor, I want to receive mentorship requests so that I can support students who need guidance.
+
+#### User Story 8
+As a user, I want to log in securely based on my role so that I can access the correct features of the system.
+
+---
+
+## 3. Functional Requirements
+
+### a. Description
+
+#### 1. User Registration and Login
+The system should allow users to register and log in according to their role.
+
+#### 2. Role-Based Access
+The system should provide different access levels for students, admins, and student club presidents.
+
+#### 3. Event Viewing
+The system should allow students to view events by department and by club.
+
+#### 4. Timetable Display
+The system should display event schedules in an organized timetable format.
+
+#### 5. Event Management
+The system should allow admins and club presidents to create, edit, and delete events.
+
+#### 6. Mentorship Application
+The system should allow students to apply for mentorship opportunities from available student mentors.
+
+#### 7. User Management
+The admin should be able to manage user accounts and roles.
+
+#### 8. Club and Department Management
+The admin should be able to manage departments and student clubs in the system.
+
+---
+
+### b. Acceptance Criteria
+
+#### Feature: User Registration and Login
+Acceptance Criteria:
+- User enters valid registration details
+- System creates the account successfully
+- User enters valid username or email and password
+- System verifies credentials
+- User is redirected to the correct dashboard based on role
+- Error message is shown for invalid login details
+
+#### Feature: Role-Based Access
+Acceptance Criteria:
+- Students can only access student features
+- Club presidents can access club event management features
+- Admin can access all management features
+- Unauthorized users cannot access restricted pages
+
+#### Feature: Event Viewing
+Acceptance Criteria:
+- Student can see events related to their department
+- Student can see events related to their club
+- Event details include title, date, time, location, and organizer
+- Events are displayed clearly and correctly
+
+#### Feature: Timetable Display
+Acceptance Criteria:
+- Events are shown in date and time order
+- Students can view timetable without errors
+- Timetable updates when new events are added
+- Timetable only shows relevant events based on user category
+
+#### Feature: Event Management
+Acceptance Criteria:
+- Admin and club president can create events
+- Admin and club president can edit event details
+- Admin and club president can delete events
+- Changes are saved correctly in the database
+
+#### Feature: Mentorship Application
+Acceptance Criteria:
+- Student can view available mentors
+- Student can submit a mentorship request
+- System stores mentorship request successfully
+- Mentor or admin can review the request
+
+#### Feature: User Management
+Acceptance Criteria:
+- Admin can add users
+- Admin can edit user roles
+- Admin can deactivate or remove users
+- User data is updated correctly in the system
+
+#### Feature: Club and Department Management
+Acceptance Criteria:
+- Admin can add clubs and departments
+- Admin can update club and department information
+- Events can be linked to correct clubs and departments
+- Invalid or duplicate entries are prevented where necessary
+
+---
+
+## 4. Non-Functional Requirements
+
+### a. Description
+
+#### 1. Performance
+The system should load quickly and respond without major delays.
+
+#### 2. Usability
+The system should be easy to use for students, admins, and club presidents.
+
+#### 3. Reliability
+The system should function consistently without frequent crashes or failures.
+
+#### 4. Security
+The system should protect user accounts and prevent unauthorized access.
+
+#### 5. Maintainability
+The code should be organized so future updates and bug fixes can be done more easily.
+
+#### 6. Availability
+The system should be accessible whenever users need it.
+
+---
+
+### b. Acceptance Criteria
+
+#### Performance
+- Main pages load in less than 3 seconds
+- Event search and timetable display respond in less than 2 seconds
+- Form submissions complete in less than 3 seconds
+
+#### Usability
+- Navigation is clear and understandable
+- Users can access important features with minimal steps
+- Interface is simple and consistent across pages
+
+#### Reliability
+- System performs correctly during repeated use
+- Data is stored and retrieved without corruption
+- System handles normal user activity without crashing
+
+#### Security
+- Passwords are stored securely
+- Only authorized roles can access protected features
+- Users must log in before accessing role-based dashboards
+
+#### Maintainability
+- Code is separated into clear modules
+- Comments and naming conventions are understandable
+- Features can be updated without breaking other parts
+
+#### Availability
+- System is available during normal usage times
+- Users can access the platform through a web browser
+- Downtime is minimal during development and testing
+
+---
+
+## 5. Application Specifications
+
+### a. Architecture
+The system follows a three-tier architecture:
+- Frontend: provides the user interface for students, admins, club presidents, and mentors
+- Backend: handles business logic such as login, role management, event creation, and mentorship requests
+- Database: stores users, events, clubs, departments, and mentorship applications
+
+The frontend sends requests to the backend. The backend processes these requests, applies the business rules, and communicates with the database to save or retrieve data.
+
+---
+
+### b. Database Model
+The database will include tables such as:
+
+- Users
+- Roles
+- Departments
+- Clubs
+- Events
+- MentorshipRequests
+- Mentors
+
+#### Relationships
+- Each user has one role
+- A student may belong to one department and possibly one or more clubs
+- Each event may be linked to a department or a club
+- Mentorship requests are linked to a student and a mentor
+
+#### Constraints
+- User email must be unique
+- Each event must have a valid organizer
+- Department and club IDs must reference existing records
+- Mentorship requests must reference valid student and mentor accounts
+
+---
+
+### c. Technologies Used
+
+#### Frontend
+- HTML for page structure
+- CSS for styling and layout
+- JavaScript for interactivity and dynamic behavior
+
+#### Backend
+- PHP for server-side logic and system functionality
+
+#### Database
+- MySQL for storing and managing application data
+
+#### Version Control
+- GitHub for collaboration, code sharing, and version tracking
+
+### Reasons for Selection
+These technologies were selected because they are practical, widely used, and suitable for building a web-based management system. They also match the team’s learning level and make it easier to divide coding tasks among members.
+
+---
+
+### d. User Interface Design
+The interface will be simple, clear, and role-based.
+
+#### Main Pages
+- Login page
+- Student dashboard
+- Admin dashboard
+- Club president dashboard
+- Event timetable page
+- Mentorship application page
+- Event creation and management page
+
+#### Design Characteristics
+- Clear navigation bar
+- Easy-to-read event timetable
+- Role-specific dashboard options
+- Forms with simple input fields and buttons
+- Clean layout so students can quickly find events and mentorship opportunities
+
+---
+
+### e. Security Measures
+The system will include the following security measures:
+
+- User authentication with login credentials
+- Password protection and secure password storage
+- Role-based access control so users only access allowed features
+- Input validation to reduce invalid or harmful data entry
+- Session management to keep users securely logged in
+- Protection of personal data stored in the database
 
