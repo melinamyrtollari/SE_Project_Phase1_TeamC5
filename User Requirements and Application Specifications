@@ -54,6 +54,11 @@ As a student mentor, I want to receive mentorship requests so that I can support
 User Story 8
 As a user, I want to log in securely based on my role so that I can access the correct features of the system.
 
+User Story 9
+As a student, I want to receive notifications about upcoming events so that I do not miss important activities.
+
+User Story 10
+As a club president, I want to view a list of participants for my events so that I can manage attendance effectively.
 ---
 
 3. Functional Requirements
@@ -83,6 +88,42 @@ The admin should be able to manage user accounts and roles.
 
 8. Club and Department Management
 The admin should be able to manage departments and student clubs in the system.
+
+9. Notification System
+The system should notify users about upcoming events and updates.
+
+10. Event Registration
+Students should be able to register or RSVP for events.
+
+11. Event Search and Filter
+Users should be able to search and filter events by date, department, or club.
+
+12. Event Reminder System
+The system should send reminders before an event starts.
+
+13. Profile Management
+Users should be able to update their personal information.
+
+14. Password Reset
+Users should be able to reset their password if forgotten.
+
+15. Attendance Tracking
+Club presidents should be able to track attendance for events.
+
+16. Dashboard Analytics
+Admins should be able to view statistics about users and events.
+
+17. Event Approval System
+Admins should approve events created by club presidents before publishing.
+
+18. Certificate Generation
+The system should generate participation certificates for students who attend events.
+
+19. File Upload
+Users should be able to upload files (e.g., event posters).
+
+20. Activity Log
+The system should track user activities for monitoring purposes.
 
 ---
 
@@ -169,6 +210,48 @@ The code should be organized so future updates and bug fixes can be done more ea
 
 6. Availability
 The system should be accessible whenever users need it.
+
+7. Scalability
+The system should handle an increasing number of users and events.
+
+8. Responsiveness
+The system should work well on mobile, tablet, and desktop devices.
+
+9. Compatibility
+The system should work across different browsers (Chrome, Firefox, etc.).
+
+10. Backup and Recovery
+The system should regularly back up data and allow recovery.
+
+11. Data Integrity
+The system should ensure data remains accurate and consistent.
+
+12. Error Handling
+The system should display meaningful error messages.
+
+13. Logging
+System errors and activities should be logged for debugging.
+
+14. Privacy
+User personal data should be protected and not shared improperly.
+
+15. Load Handling
+The system should handle multiple users at the same time.
+
+16. Response Time
+System responses should remain fast during peak usage.
+
+17. Maintainable UI
+The interface should be easy to update without major redesign.
+
+18. Accessibility
+The system should be usable by people with basic accessibility needs.
+
+19. Deployment Ease
+The system should be easy to deploy and configure.
+
+20. Code Reusability
+Code components should be reusable across the system.
 
 ---
 
